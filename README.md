@@ -19,7 +19,10 @@ From one of the example directories, type the following commands...
 ```
 vagrant init ubuntu/trusty64
 vagrant up
-vagrant ssh
+
+vagrant ssh 
+   username: vagrant, password: vagrant
+
 vagrant destroy
 ```
 
