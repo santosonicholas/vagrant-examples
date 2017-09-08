@@ -1,5 +1,5 @@
 # Example 5
-#
+# ubuntu/trusty64
 # Separate Web and database servers serving up static/dynamic sites via Puppet.
 
 nodes = [
