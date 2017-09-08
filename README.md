@@ -6,18 +6,18 @@ Vagrant is a tool that uses Oracle's VirtualBox to dynamically build configurabl
 
 ## What is this project?
 
-This is a collection of sample Vagrant configurations using Puppet. They start out very simple with the bare minimum and gradually get more complex. The examples use Ubuntu 12.04, though they should work with any Debian-based Linux distribution. Other distros such as Fedora and SUSE could be supported with some Facter logic in the manifests to ensure that platform-specific packages are installed correctly (e.g. httpd vs apache2).
+This is a collection of sample Vagrant configurations using Puppet. They start out very simple with the bare minimum and gradually get more complex. The examples use Ubuntu 14.04, though they should work with any Debian-based Linux distribution. Other distros such as Fedora and SUSE could be supported with some Facter logic in the manifests to ensure that platform-specific packages are installed correctly (e.g. httpd vs apache2).
 
 ## How do I install Vagrant?
 
-The host OS used in testing these examples was Mint 14 (Ubuntu-based), but any OS should work as long as VirtualBox can be installed. The Vagrant version used in these examples is v1.1.0. The [Vagrant download page](http://downloads.vagrantup.com/tags/v1.1.0) lists several options for installing v1.1.0.
+The host OS used in testing these examples was Mint 14 (Ubuntu-based), but any OS should work as long as VirtualBox can be installed. Download Vagrant from this source https://www.vagrantup.com/downloads.html
 
 ## How do I run the examples?
 
 From one of the example directories, type the following commands...
 
 ```
-vagrant box add precise32 http://files.vagrantup.com/precise32.box
+vagrant init ubuntu/trusty64
 vagrant up
 vagrant ssh
 vagrant destroy
