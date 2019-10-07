@@ -1,6 +1,5 @@
-#Vagrant
+# Cloud Computing Report
 
-Report
 Nicholas
 01082170001
 Informatics UPH
